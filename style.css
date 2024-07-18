@@ -127,3 +127,18 @@ img {
     position: absolute;
     padding-top: 250px;
 }
+
+/* New message styling */
+.message {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    max-height: 80%;
+}
